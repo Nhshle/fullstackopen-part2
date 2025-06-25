@@ -1,0 +1,66 @@
+.error, .success {
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  background-color: lightgray;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.error{
+  color: red;
+  border-color: red;
+}
+
+.success {
+  color: green;
+  border-color: green;
+}
+
+.footer, h1 {
+  color: red;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+h2 {
+  color: blue;
+  margin-left: 10px;
+}
+
+.footer {
+  font-size: 25px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  margin-left: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+}
+
+li {
+  font-size: 18px;
+  list-style: decimal;
+  margin-bottom: 8px;
+}
+
+.personform {
+  margin-left: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 15%;
+  padding-bottom: 10px;
+}

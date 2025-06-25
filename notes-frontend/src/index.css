@@ -1,0 +1,48 @@
+.error, .success {
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  background-color: lightgray;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.error{
+  color: red;
+  border-color: red;
+}
+
+.success {
+  color: green;
+  border-color: green;
+}
+
+.footer, h1 {
+  color: green;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.footer {
+  font-size: 25px;
+}
+
+button {
+  margin-left: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+}
+
+li {
+  font-size: 18px;
+  list-style: decimal;
+  margin-bottom: 8px;
+}
